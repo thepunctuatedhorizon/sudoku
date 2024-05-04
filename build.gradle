@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+repositories{
+    mavenCentral()
+}
+dependencies{
+    implementation 'org.projectlombok:lombok:1.18.26'
+    implementation( group: 'org.slf4j', name: 'slf4j-log4j12', version: '2.0.13')
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+}
